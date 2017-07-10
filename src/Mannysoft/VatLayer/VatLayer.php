@@ -10,9 +10,9 @@ class VatLayer {
     public $apiKey;
     protected $client;
 
-    public function __construct(Client $client)
+    public function __construct()
     {
-        $this->client = $client;
+        $this->client = new Client;
     }
 
     public function validateVatNumber($request)

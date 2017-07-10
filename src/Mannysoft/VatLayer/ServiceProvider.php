@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Mannysoft\VatLayer\VatLayer;
 
 class ServiceProvider extends BaseServiceProvider {
-
+    
     /**
      * Bootstrap the application services.
      *

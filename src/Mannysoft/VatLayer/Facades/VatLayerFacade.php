@@ -11,7 +11,7 @@ class VatLayerFacade extends Facade {
      */
     protected static function getFacadeAccessor()
     {
-        return 'vat-layer'
+        return 'vat-layer';
         return 'monopond-fax';
     }
 }
