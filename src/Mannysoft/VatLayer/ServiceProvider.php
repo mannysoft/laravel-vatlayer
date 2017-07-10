@@ -14,7 +14,12 @@ class ServiceProvider extends BaseServiceProvider {
      */
     public function boot()
     {
-        
+        $this->publishes([
+            __DIR__ . '/../../config/vatlayer.php' => config_path('vatlayer.php'),
+        ]);
+        $this->mergeConfigFrom(
+            __DIR__ . '/../../config/vatlayer.php', 'vatlayer'
+        );
     }
 
     /**
