@@ -1,0 +1,22 @@
+{
+    "name": "mannysoft/laravel-vatlayer",
+    "description": "Laravel package for VAT Layer",
+    "keywords": [
+        "laravel",
+        "vat",
+        "vatlayer"
+    ],
+    "authors": [
+        {
+            "name": "Manny Isles"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mannysoft\\VatLayer\\": "src/"
+        }
+    }
+}
